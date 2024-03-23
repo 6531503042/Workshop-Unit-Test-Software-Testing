@@ -5,17 +5,16 @@ class MoneyTransfer:
     def __init__(self, source, sink, amount):
         self.transfers = []
         self.accounts = []
-        self._source = source
-        self._sink = sink
-        self._amount = amount
-        self._date = datetime.now()
+        self.source = source
+        self.sink = sink
+        self.amount = amount
+        self.date = datetime.now()
 
         # Do transfer
         self.source.withdraw(amount)
         self.sink.deposit(amount)
         self.transfers.append(self)
 
-    # Getter & Setter
     @property
     def source(self):
         return self._source
@@ -40,15 +39,14 @@ class MoneyTransfer:
     def sink(self, value):
         self._sink = value
 
-    @amount.setter
-    def amount(self, value):
-        self._amount = value
-
     @date.setter
     def date(self, value):
         self._date = value
 
-    # Method
+    @amount.setter
+    def amount(self, value):
+        self._amount = value
+
     def create_account(self, account_number, initial_balance=0):
         account = Account(account_number, initial_balance)
         self.accounts.append(account)
@@ -74,4 +72,4 @@ class MoneyTransfer:
         if source and sink:
             transfer = MoneyTransfer(source, sink, amount)
         else:
-            raise Exception("One or both accounts are invalid")
+            raise Exception("One or both accounts not found.")
