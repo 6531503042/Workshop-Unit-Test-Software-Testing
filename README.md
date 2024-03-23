@@ -24,17 +24,16 @@ Test-Cases Document --> https://docs.google.com/spreadsheets/d/1cg22JAA6bYvOokmR
 2. Run the unit tests: `python -m unittest MoneyTransferTestCase`
 
 ### Test Cases
-1. Test Account Initialization: Checks if the Account class initializes with the correct account number and balance.
-2. Test Deposit Method: Tests the deposit functionality of the Account class.
-3. Test Withdraw Method with Sufficient Balance: Tests the withdraw method when the account has sufficient balance.
-4. Test Withdraw Method with Insufficient Balance: Tests the withdraw method when the account has insufficient balance.
-5. Test Transfer Method: Tests the transfer method of the Account class.
+1. Account Initialization: Test the initialization of an Account object.
+2. Deposit Method: Test the deposit method of the Account class.
+3. Withdraw Method: Test the withdraw method of the Account class.
+4. Transfer Method: Test the transfer method of the Account class.
+5. MoneyTransfer Initialization: Test the initialization of a MoneyTransfer object.
+6. Create Account Method: Test the create_account method of the MoneyTransfer class.
+7. Find Account Method: Test the find_account method of the MoneyTransfer class.
+8. Update Account Method: Test the update_account method of the MoneyTransfer class.
+9. Transfer Money Method: Test the transfer_money method of the MoneyTransfer class.
 
-6. Test MoneyTransfer Initialization: Checks if the MoneyTransfer class initializes with the correct source, sink, and amount.
-7. Test Create Account Method: Tests the creation of a new account.
-8. Test Find Account Method: Tests finding an account by account number.
-9. Test Update Account Method: Tests updating the balance of an account.
-10. Test Transfer Money Method: Tests transferring money between accounts.
 
 ### Contributors
 - Nimit Tanboontor (6531503042)
