@@ -1,4 +1,4 @@
-# Workshop_Unit_Testing [Software Testing]
+# Workshop created by 6531503042 Nimit Tanboontor
  
 ### Introduction
 This repository contains code for three classes (Account, MoneyTransfer, and MoneyTransferTestCase) that are used for software testing purposes in the unit test workshop. The code was authored and created by Nimit Tanboontor (6531503042).
