@@ -5,7 +5,7 @@ This repository contains code for three classes (Account, MoneyTransfer, and Mon
 
 ### Test-case-Documents
 1. Account --> AccountTest
-Document --> ![alt text](/img/Account%Document.png)
+Document --> ![alt text](AccountDocument.png)
 Code --> ![alt text](image-1.png)
 Pytest-Output --> ![alt text](image.png)
 
